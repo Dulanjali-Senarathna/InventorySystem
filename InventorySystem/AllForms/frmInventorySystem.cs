@@ -7,13 +7,18 @@ using System.Linq;
 using System.Text;
 using System.Windows.Forms;
 
-namespace InventorySystem
+namespace InventorySystem.AllForms
 {
-    public partial class Form1 : Form
+    public partial class frmInventorySystem : Form
     {
-        public Form1()
+        public frmInventorySystem()
         {
             InitializeComponent();
+        }
+
+        private void dailySalesReportsToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
